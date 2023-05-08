@@ -1,16 +1,20 @@
 body {
   overflow-x: hidden;
   font-family: sans-serif;
-  margin-left: 60px;
-  margin-right: 60px;
+  /* margin-left: 60px; */
+  /* margin-right: 60px; */
   width: 100vw;
   height: 100vh;
   /* max-width: 100%; */
 }
-body p {
-  font-size: 15px;
-}
-
+/* body p { */
+/* font-size: 15px; */
+/* } */
+/* section { */
+/* width: 98%; */
+/* height: 100%; */
+/* } */
+/*  */
 nav {
   display: flex;
   justify-content: space-between;
@@ -162,18 +166,20 @@ span:hover {
 @media screen and (max-width: 960px) {
   nav ul li {
     display: none;
+    overflow-x: hidden;
   }
   nav ul li.icon {
     /* float: right; */
     display: block;
     /* margin-right: 10px; */
   }
+
   .img-box {
     width: 95%;
     height: auto;
   }
   .box-container {
-    width: 95%;
+    width: 100%;
     height: auto;
   }
   .box {
@@ -182,7 +188,7 @@ span:hover {
   }
   .mobile-image {
     display: block;
-    width: 100%;
+    width: 95%;
     height: auto;
   }
   .wrapper {
@@ -202,24 +208,25 @@ span:hover {
     flex-direction: column;
   }
   .container {
+    overflow-x: hidden;
     flex-direction: column;
   }
   .first-section {
-    margin-left: 20px;
-    margin-right: 20px;
+    overflow-x: hidden;
+    margin: 0 40px;
   }
   section {
-    margin-left: 20px;
-    margin-right: 20px;
+    overflow-x: hidden;
+    margin: 0 40px;
   }
   .second {
-    margin-left: 0px;
+    /* margin-left: 0px; */
   }
 
-  .img-box {
-    width: 100%;
-    height: auto;
-  }
+  /* .img-box { */
+  /* width: 95%; */
+  /* height: auto; */
+  /* } */
 }
 /* @media screen and (max-width: 980px) { */
 /* .btn { */
