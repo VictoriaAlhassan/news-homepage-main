@@ -1,20 +1,16 @@
 body {
   overflow-x: hidden;
   font-family: sans-serif;
-  /* margin-left: 60px; */
-  /* margin-right: 60px; */
+  /* margin: 0px; */
+  /* padding: 0px; */
+  margin: 0 60px;
   width: 100vw;
   height: 100vh;
-  /* max-width: 100%; */
 }
 /* body p { */
 /* font-size: 15px; */
 /* } */
-/* section { */
-/* width: 98%; */
-/* height: 100%; */
-/* } */
-/*  */
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -164,9 +160,18 @@ span:hover {
 }
 
 @media screen and (max-width: 960px) {
+  body {
+    overflow-x: hidden;
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    /* margin: 0 60px; */
+    width: 100vw;
+    height: 100vh;
+  }
+
   nav ul li {
     display: none;
-    overflow-x: hidden;
   }
   nav ul li.icon {
     /* float: right; */
@@ -175,12 +180,14 @@ span:hover {
   }
 
   .img-box {
-    width: 95%;
+    width: 100%;
     height: auto;
+    overflow-x: hidden;
   }
   .box-container {
     width: 100%;
     height: auto;
+    overflow-x: hidden;
   }
   .box {
     width: 100%;
@@ -188,8 +195,15 @@ span:hover {
   }
   .mobile-image {
     display: block;
-    width: 95%;
+    width: 100%;
     height: auto;
+    overflow-x: hidden;
+  }
+  .heading {
+    font-weight: bolder;
+    font-size: 3em;
+    margin-top: 10px;
+    line-height: 40px;
   }
   .wrapper {
     margin-left: 0px;
@@ -203,24 +217,27 @@ span:hover {
   }
   .second-container {
     flex-direction: column;
+    /* overflow-x: hidden; */
   }
   .footer-items {
+    /* margin: 0px; */
+    /* overflow-x: hidden; */
     flex-direction: column;
   }
   .container {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     flex-direction: column;
   }
   .first-section {
-    overflow-x: hidden;
-    margin: 0 40px;
+    /* overflow-x: hidden; */
+    margin: 0;
   }
   section {
-    overflow-x: hidden;
-    margin: 0 40px;
+    /* overflow-x: hidden; */
+    margin: 0;
   }
   .second {
-    /* margin-left: 0px; */
+    margin-left: 0px;
   }
 
   /* .img-box { */
@@ -245,7 +262,7 @@ span:hover {
 /* } */
 @media screen and (min-width: 960px) {
   .first-section {
-    width: 90%;
+    width: 91%;
     height: 100%;
   }
 }
